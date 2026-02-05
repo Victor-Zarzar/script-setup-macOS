@@ -29,6 +29,8 @@ install_apps() {
         "slack:Slack"
         "cloudflare-warp:Cloudflare WARP"
         "tunnelblick:Tunnelblick"
+        "kap:Kap Screen Recorder"
+        "responsively: Responsively"
     )
 
     for app in "${apps[@]}"; do
