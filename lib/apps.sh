@@ -9,7 +9,6 @@ install_apps() {
 
     local apps=(
         "localsend:LocalSend"
-        "keepassxc:KeePassXC"
         "telegram:Telegram"
         "orion:Orion Browser"
         "google-chrome: Google Browser"
@@ -21,7 +20,6 @@ install_apps() {
         "notion:Notion"
         "spotify:Spotify"
         "onlyoffice:OnlyOffice"
-        "google-drive:Google Drive"
         "omnidisksweeper:OmniDiskSweeper"
         "protonvpn:ProtonVPN"
         "crossover:CrossOver"

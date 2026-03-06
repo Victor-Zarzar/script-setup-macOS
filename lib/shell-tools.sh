@@ -9,6 +9,7 @@ install_shell_tools() {
 
     local tools=(
         "starship:Starship prompt"
+        "iterm2: Terminal macOS"
         "zsh-autosuggestions:ZSH autosuggestions"
         "eza:Modern ls replacement"
         "zoxide:Smart cd command"

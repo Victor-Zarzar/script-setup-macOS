@@ -13,7 +13,7 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Flutter Tools**: FVM (Flutter Version Manager)
 - **Applications**: Zed Editor, Sublime Text, Android Studio, Discord, Notion, Spotify, and more
 - **VPN & Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: OrbStack, OmniDiskSweeper, LocalSend, KeePassXC
+- **Utilities**: OrbStack, OmniDiskSweeper, LocalSend
 - **Interactive Configuration**: Git username and email setup
 - **Xcode Configuration**: Automatic license acceptance and setup
 - **Automatic Log Generation**: Detailed installation logs with timestamps
@@ -50,29 +50,10 @@ setup-macos/
 
 ## Installation
 
-Clone the repository:
-
 ```bash
 git clone https://github.com/Victor-Zarzar/script-setup-macOS
-```
-
-Navigate to the directory:
-
-```bash
 cd script-setup-macOS
-```
-
-Make the script executable:
-
-```bash
 chmod +x setup.sh
-```
-
-## Usage
-
-Run the script:
-
-```bash
 ./setup.sh
 ```
 
@@ -99,6 +80,7 @@ The script will display an interactive menu with the following options:
 ### Shell & Terminal
 
 - **Starship**: Cross-shell prompt
+- **iTerm2**: Terminal emulator
 - **Zsh Autosuggestions**: Fish-like autosuggestions
 - **Eza**: Modern replacement for ls
 - **Zoxide**: Smarter cd command
@@ -142,8 +124,7 @@ The script will display an interactive menu with the following options:
 - **Communication**: Telegram, Discord, Slack
 - **Productivity**: Notion, OnlyOffice
 - **Entertainment**: Spotify
-- **Cloud**: Google Drive
-- **Security**: KeePassXC, ProtonVPN, Cloudflare WARP, Tunnelblick
+- **Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
 - **Utilities**: LocalSend, OrbStack, OmniDiskSweeper, CrossOver, Macs Fan Control
 
 ### Fonts
