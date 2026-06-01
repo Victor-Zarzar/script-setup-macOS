@@ -18,7 +18,6 @@ install_apps() {
         "android-studio:Android Studio"
         "discord:Discord"
         "notion:Notion"
-        "spotify:Spotify"
         "onlyoffice:OnlyOffice"
         "protonvpn:ProtonVPN"
         "crossover:CrossOver"
@@ -30,7 +29,9 @@ install_apps() {
         "responsively:Responsively"
         "figma:Figma App"
         "the-unarchiver:The Unarchiver"
-        "balenaetcher:BalenaEtcher"
+        "balenaetcher:BalenaEtcher",
+        "rectangle:Rectangle",
+        "shottr:Shottr"
     )
 
     for app in "${apps[@]}"; do
