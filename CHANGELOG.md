@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.3.0...v1.4.0) (2026-06-16)
+
+
+### Features
+
+* add nem packages and update README. ([f926eb8](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/f926eb8cb3faf076d10e306d9c0aa82a15049780))
+* add nem packages and update README. ([f926eb8](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/f926eb8cb3faf076d10e306d9c0aa82a15049780))
+* add new packages and update README.md ([99dc34e](https://github.com/Victor-Zarzar/dev-setup-macOS/commit/99dc34e0dcab7cafd3614e4bee250600c00e912b))
+
 ## [1.3.0](https://github.com/Victor-Zarzar/dev-setup-macOS/compare/v1.2.0...v1.3.0) (2026-04-20)
 
 
