@@ -14,12 +14,12 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Homebrew Installation**: Automatic Homebrew installation and configuration
 - **Shell Tools**: Starship, Zsh autosuggestions, Eza, Zoxide, Bat
 - **Databases**: SQLite, MySQL, PostgreSQL, Redis, Supabase, Firebase
-- **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK
+- **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK, kubectl, Minikube, k9s
 - **Python Environment**: Pyenv, Virtualenv
 - **Flutter Tools**: FVM (Flutter Version Manager)
 - **Applications**: Zed Editor, Sublime Text, Android Studio, Discord, Notion, Rectangle, Shottr, Figma, and more
 - **VPN & Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: OrbStack, OmniDiskSweeper, LocalSend
+- **Utilities**: OrbStack (Docker), OmniDiskSweeper, LocalSend
 - **Interactive Configuration**: Git username and email setup
 - **Xcode Configuration**: Automatic license acceptance and setup
 - **Automatic Log Generation**: Detailed installation logs with timestamps
@@ -113,6 +113,13 @@ The script will display an interactive menu with the following options:
 - **OpenSSH**: Secure shell protocol
 - **OpenJDK 21**: Java Development Kit
 
+### Containers & Kubernetes
+
+- **OrbStack**: Lightweight Docker Desktop alternative for macOS (provides a full Docker engine — use the docker CLI normally)
+- **kubectl**: Official Kubernetes command-line tool
+- **Minikube**: Run a local Kubernetes cluster on macOS
+- **k9s**: Terminal-based UI to manage Kubernetes clusters
+
 ### Python Tools
 
 - **Pyenv**: Python version manager
@@ -133,7 +140,7 @@ The script will display an interactive menu with the following options:
 - **Communication**: Telegram, Discord, Slack
 - **Productivity**: Notion, OnlyOffice
 - **Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: LocalSend, OrbStack, OmniDiskSweeper, CrossOver, Macs Fan Control
+- **Utilities**: LocalSend, OrbStack (Docker), OmniDiskSweeper, CrossOver, Macs Fan Control
 
 ### Fonts
 
