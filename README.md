@@ -13,13 +13,13 @@ A comprehensive, modular automated setup script for macOS that helps install and
 - **Modular Architecture**: Clean, organized code split into focused modules
 - **Homebrew Installation**: Automatic Homebrew installation and configuration
 - **Shell Tools**: Starship, Zsh autosuggestions, Eza, Zoxide, Bat
-- **Databases**: SQLite, MySQL, Redis, Supabase, Firebase
-- **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK
+- **Databases**: SQLite, MySQL, PostgreSQL, Redis, Supabase, Firebase
+- **Development Tools**: Git, Node (NVM), PNPM, Bun, CocoaPods, Nginx, OpenJDK, kubectl, Minikube, k9s
 - **Python Environment**: Pyenv, Virtualenv
 - **Flutter Tools**: FVM (Flutter Version Manager)
-- **Applications**: Zed Editor, Sublime Text, Android Studio, Discord, Notion, Spotify, Figma, and more
+- **Applications**: Zed Editor, Sublime Text, Android Studio, Discord, Notion, Rectangle, Shottr, Figma, and more
 - **VPN & Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: OrbStack, OmniDiskSweeper, LocalSend
+- **Utilities**: OrbStack (Docker), OmniDiskSweeper, LocalSend
 - **Interactive Configuration**: Git username and email setup
 - **Xcode Configuration**: Automatic license acceptance and setup
 - **Automatic Log Generation**: Detailed installation logs with timestamps
@@ -94,9 +94,12 @@ The script will display an interactive menu with the following options:
 
 ### Databases
 
-- **SQLite**: Lightweight database
-- **MySQL**: Relational database
-- **Redis**: In-memory data store
+- **SQLite**: Lightweight, file-based, serverless database
+- **MySQL**: Open-source relational database for web apps
+- **Redis**: In-memory store for caching and real-time data
+- **PostgreSQL**: Advanced relational database with JSON support
+- **Supabase**: Open-source Firebase alternative built on PostgreSQL
+- **Firebase CLI**: CLI tool to manage and deploy Firebase projects
 
 ### Development Tools
 
@@ -109,6 +112,13 @@ The script will display an interactive menu with the following options:
 - **Nmap**: Network mapper
 - **OpenSSH**: Secure shell protocol
 - **OpenJDK 21**: Java Development Kit
+
+### Containers & Kubernetes
+
+- **OrbStack**: Lightweight Docker Desktop alternative for macOS (provides a full Docker engine — use the docker CLI normally)
+- **kubectl**: Official Kubernetes command-line tool
+- **Minikube**: Run a local Kubernetes cluster on macOS
+- **k9s**: Terminal-based UI to manage Kubernetes clusters
 
 ### Python Tools
 
@@ -129,9 +139,8 @@ The script will display an interactive menu with the following options:
 - **Browsers**: Orion
 - **Communication**: Telegram, Discord, Slack
 - **Productivity**: Notion, OnlyOffice
-- **Entertainment**: Spotify
 - **Security**: ProtonVPN, Cloudflare WARP, Tunnelblick
-- **Utilities**: LocalSend, OrbStack, OmniDiskSweeper, CrossOver, Macs Fan Control
+- **Utilities**: LocalSend, OrbStack (Docker), OmniDiskSweeper, CrossOver, Macs Fan Control
 
 ### Fonts
 
