@@ -34,7 +34,8 @@ install_apps() {
         "the-unarchiver:The Unarchiver"
         "balenaetcher:BalenaEtcher",
         "rectangle:Rectangle",
-        "shottr:Shottr"
+        "shottr:Shottr",
+        "spotify:Spotify"
     )
 
     for app in "${apps[@]}"; do
